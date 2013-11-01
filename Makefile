@@ -1,5 +1,5 @@
 CC = gcc
-CLFAGS = -Wall
+CFLAGS = -Wall -I/usr/include/libev
 LDFLAGS = -shared -fPIC -lev
 
 all:
